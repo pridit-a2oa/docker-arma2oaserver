@@ -1,0 +1,9 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines ending every bash file & Dockerfile with no newlines
+[{*.sh, Dockerfile}]
+end_of_line = lf
+insert_final_newline = false
