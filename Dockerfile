@@ -39,11 +39,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 ENV VALIDATE=1
 ARG RCON_PASSWORD=secret
 
-EXPOSE 2302/udp 2303/udp 2304/udp 2305/udp
-
 WORKDIR /arma2oaserver
-
-VOLUME ./profiles
 
 COPY credentials.sh install.sh serverfiles/tolower.c ./
 
