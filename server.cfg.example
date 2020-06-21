@@ -27,8 +27,8 @@ logFile = "server_console.log";
  */
 
 // These need to be set to ensure public visibility.
-steamPort = 8766;
-steamQueryPort = 27016;
+steamPort = 2304;
+steamQueryPort = 2303;
 
 /**
  * Welcome messages
