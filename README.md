@@ -26,6 +26,7 @@ Without the argument being specified at build the value will default to `secret`
 docker create \
     --name=arma2oaserver \
     --net=host \
+    --restart unless-stopped \
     -v $PWD/keys:/arma2oaserver/expansion/keys \
     -v $PWD/mpmissions:/arma2oaserver/mpmissions \
     -v $PWD/params:/arma2oaserver/params \
