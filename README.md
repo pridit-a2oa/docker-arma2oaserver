@@ -38,7 +38,7 @@ docker create \
 
 ## Known Issues
 ### No support for latest version
-At the time of writing the latest version of Arma 2: Operation Arrowhead is **1.64**. This repository contains server files to host a server running version **1.63**. Due to Bohemia Interactive not releasing Linux server files for the latest version it is not possible to host a Linux dedicated server to match this.
+At the time of writing the latest version of Arma 2: Operation Arrowhead is **1.64**. This repository contains server files to host a server running version **1.63**. Due to Bohemia Interactive not releasing Linux server files for the latest version it is not possible to host a Linux dedicated server to match this. For a Docker environment to host a 1.64 server using Wine, see [pridit/docker-arma2oaserver-wine](https://github.com/pridit/docker-arma2oaserver-wine).
 
 ## Attribution
 With thanks to [timelf123/arma3-docker](https://github.com/timelf123/arma3-docker) & [synixebrett/Arma3Server](https://github.com/synixebrett/Arma3Server) from which this repository is loosely based from.
