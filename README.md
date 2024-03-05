@@ -1,5 +1,5 @@
 > [!IMPORTANT]  
-> **Due to the lack of an up-to-date binary to support the latest game version (1.64), and a low likelihood of this ever being produced, this respository is archived and subsequently this method of server hosting is no longer recommended.**
+> **Due to the lack of an up-to-date binary to support the latest game version (1.64), and a low likelihood of this ever being produced, this respository is archived and subsequently this method of server hosting is unsupported and no longer recommended.**
 >
 > **For a Docker environment to host a 1.64 server using Wine, see [pridit/docker-arma2oaserver-wine](https://github.com/pridit/docker-arma2oaserver-wine).**
 
